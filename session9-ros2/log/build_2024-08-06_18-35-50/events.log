@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (-) JobUnselected: {'identifier': 'action_package'}
+[0.000502] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict([('action_package', '/home/sami/session9/install/action_package')])}
+[0.000610] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.006853] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.007681] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.007701] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sami/session9/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/sami/session9/build/cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sami/session9/install/action_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sami'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2924,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2924'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3fc5999d_8aca_408e_8979_ed3a4ee1fa67'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S7EFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sami/session9/install/action_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sami/session9/build/cpp_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sami/session9/install/action_package:/opt/ros/humble')]), 'shell': False}
+[0.025232] (cpp_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099581] (cpp_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099826] (-) TimerEvent: {}
+[0.116966] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.118371] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.122281] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.131366] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.140709] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.175700] (cpp_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.176529] (cpp_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200015] (-) TimerEvent: {}
+[0.250292] (cpp_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300085] (-) TimerEvent: {}
+[0.345732] (cpp_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.400170] (-) TimerEvent: {}
+[0.428088] (cpp_package) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.486139] (cpp_package) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.500267] (-) TimerEvent: {}
+[0.549065] (cpp_package) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.556135] (cpp_package) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.600472] (-) TimerEvent: {}
+[0.700827] (-) TimerEvent: {}
+[0.706538] (cpp_package) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.718576] (cpp_package) StdoutLine: {'line': b'-- Found action_package: 0.0.0 (/home/sami/session9/install/action_package/share/action_package/cmake)\n'}
+[0.799124] (cpp_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800977] (-) TimerEvent: {}
+[0.812694] (cpp_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.813845] (cpp_package) StdoutLine: {'line': b'-- Build files have been written to: /home/sami/session9/build/cpp_package\n'}
+[0.832793] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_driver\x1b[0m\n'}
+[0.832982] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lap_time_action_client\x1b[0m\n'}
+[0.833040] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lap_time_action_server\x1b[0m\n'}
+[0.839882] (cpp_package) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o\x1b[0m\n'}
+[0.848008] (cpp_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_action_client.dir/src/lap_time_action_client.cpp.o\x1b[0m\n'}
+[0.848379] (cpp_package) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o\x1b[0m\n'}
+[0.850748] (cpp_package) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable robot_driver\x1b[0m\n'}
+[0.901110] (-) TimerEvent: {}
+[1.001541] (-) TimerEvent: {}
+[1.101848] (-) TimerEvent: {}
+[1.202160] (-) TimerEvent: {}
+[1.302637] (-) TimerEvent: {}
+[1.385869] (cpp_package) StdoutLine: {'line': b'[ 62%] Built target robot_driver\n'}
+[1.402760] (-) TimerEvent: {}
+[1.503171] (-) TimerEvent: {}
+[1.603612] (-) TimerEvent: {}
+[1.704029] (-) TimerEvent: {}
+[1.804416] (-) TimerEvent: {}
+[1.904836] (-) TimerEvent: {}
+[2.005247] (-) TimerEvent: {}
+[2.105690] (-) TimerEvent: {}
+[2.206105] (-) TimerEvent: {}
+[2.306490] (-) TimerEvent: {}
+[2.406904] (-) TimerEvent: {}
+[2.507330] (-) TimerEvent: {}
+[2.607839] (-) TimerEvent: {}
+[2.708325] (-) TimerEvent: {}
+[2.808759] (-) TimerEvent: {}
+[2.909176] (-) TimerEvent: {}
+[3.009587] (-) TimerEvent: {}
+[3.110007] (-) TimerEvent: {}
+[3.210484] (-) TimerEvent: {}
+[3.310886] (-) TimerEvent: {}
+[3.411311] (-) TimerEvent: {}
+[3.511730] (-) TimerEvent: {}
+[3.612124] (-) TimerEvent: {}
+[3.712526] (-) TimerEvent: {}
+[3.812916] (-) TimerEvent: {}
+[3.913302] (-) TimerEvent: {}
+[4.013614] (-) TimerEvent: {}
+[4.024072] (cpp_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable lap_time_action_client\x1b[0m\n'}
+[4.113823] (-) TimerEvent: {}
+[4.165528] (cpp_package) StdoutLine: {'line': b'[ 75%] Built target lap_time_action_client\n'}
+[4.214030] (-) TimerEvent: {}
+[4.314380] (-) TimerEvent: {}
+[4.414780] (-) TimerEvent: {}
+[4.515164] (-) TimerEvent: {}
+[4.611799] (cpp_package) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable wall_finder_service\x1b[0m\n'}
+[4.615352] (-) TimerEvent: {}
+[4.715778] (-) TimerEvent: {}
+[4.782461] (cpp_package) StdoutLine: {'line': b'[ 87%] Built target wall_finder_service\n'}
+[4.815998] (-) TimerEvent: {}
+[4.916377] (-) TimerEvent: {}
+[5.016739] (-) TimerEvent: {}
+[5.117127] (-) TimerEvent: {}
+[5.217502] (-) TimerEvent: {}
+[5.317828] (-) TimerEvent: {}
+[5.418168] (-) TimerEvent: {}
+[5.518512] (-) TimerEvent: {}
+[5.618841] (-) TimerEvent: {}
+[5.719167] (-) TimerEvent: {}
+[5.819522] (-) TimerEvent: {}
+[5.919890] (-) TimerEvent: {}
+[6.020249] (-) TimerEvent: {}
+[6.120584] (-) TimerEvent: {}
+[6.220851] (-) TimerEvent: {}
+[6.321190] (-) TimerEvent: {}
+[6.421527] (-) TimerEvent: {}
+[6.521870] (-) TimerEvent: {}
+[6.622206] (-) TimerEvent: {}
+[6.722546] (-) TimerEvent: {}
+[6.822887] (-) TimerEvent: {}
+[6.923220] (-) TimerEvent: {}
+[7.023626] (-) TimerEvent: {}
+[7.124030] (-) TimerEvent: {}
+[7.224342] (-) TimerEvent: {}
+[7.324663] (-) TimerEvent: {}
+[7.424111] (cpp_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lap_time_action_server\x1b[0m\n'}
+[7.424777] (-) TimerEvent: {}
+[7.525036] (-) TimerEvent: {}
+[7.625393] (-) TimerEvent: {}
+[7.725758] (-) TimerEvent: {}
+[7.741123] (cpp_package) StdoutLine: {'line': b'[100%] Built target lap_time_action_server\n'}
+[7.750691] (cpp_package) CommandEnded: {'returncode': 0}
+[7.774229] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'install'}
+[7.780925] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sami/session9/build/cpp_package'], 'cwd': '/home/sami/session9/build/cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sami/session9/install/action_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sami'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2924,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2924'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3fc5999d_8aca_408e_8979_ed3a4ee1fa67'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S7EFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sami/session9/install/action_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sami/session9/build/cpp_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sami/session9/install/action_package:/opt/ros/humble')]), 'shell': False}
+[7.786952] (cpp_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.787078] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/lib/cpp_package/lap_time_action_server\n'}
+[7.789534] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/cpp_package/lib/cpp_package/lap_time_action_server" to ""\n'}
+[7.789599] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/lib/cpp_package/robot_driver\n'}
+[7.792824] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/cpp_package/lib/cpp_package/robot_driver" to ""\n'}
+[7.792911] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/lib/cpp_package/lap_time_action_client\n'}
+[7.793736] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/cpp_package/lib/cpp_package/lap_time_action_client" to ""\n'}
+[7.793806] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/lib/cpp_package/wall_finder_service\n'}
+[7.794725] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/cpp_package/lib/cpp_package/wall_finder_service" to ""\n'}
+[7.794782] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/include/cpp_package\n'}
+[7.794834] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/include/cpp_package/cpp_package\n'}
+[7.794870] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/include/cpp_package/cpp_package/robot_driver.hpp\n'}
+[7.795021] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/include/cpp_package/cpp_package/wall_finder_service.hpp\n'}
+[7.795108] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/include/cpp_package/cpp_package/lap_time_action_server.hpp\n'}
+[7.795178] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/include/cpp_package/cpp_package/lap_time_action_client.hpp\n'}
+[7.795275] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/launch\n'}
+[7.795328] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/launch/file.launch.py\n'}
+[7.795582] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package\n'}
+[7.795711] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package\n'}
+[7.795834] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh\n'}
+[7.795929] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/environment/ament_prefix_path.dsv\n'}
+[7.796456] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/environment/path.sh\n'}
+[7.796535] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/environment/path.dsv\n'}
+[7.796595] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/local_setup.bash\n'}
+[7.796629] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/local_setup.sh\n'}
+[7.796679] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/local_setup.zsh\n'}
+[7.796735] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/local_setup.dsv\n'}
+[7.796815] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/package.dsv\n'}
+[7.796965] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/ament_index/resource_index/packages/cpp_package\n'}
+[7.797097] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig.cmake\n'}
+[7.797162] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig-version.cmake\n'}
+[7.797257] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/cpp_package/share/cpp_package/package.xml\n'}
+[7.798844] (cpp_package) CommandEnded: {'returncode': 0}
+[7.825988] (-) TimerEvent: {}
+[7.829574] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 0}
+[7.829928] (-) EventReactorShutdown: {}

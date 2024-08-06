@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cpp_package</name>
+  <version>0.0.1</version>
+  <description>A sample ROS 2 package</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>action_package</depend>
+  <depend>action_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+
+
+  <build_depend>rosidl_typesupport_cpp</build_depend> <!-- Keep this line -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,7 @@
+{
+  "package_name": "action_package",
+  "non_idl_tuples": [
+    "/home/sami/session9/src/action_package:action/LapTime.action",
+    "/home/sami/session9/src/action_package:srv/FindClosestWall.srv"
+  ]
+}

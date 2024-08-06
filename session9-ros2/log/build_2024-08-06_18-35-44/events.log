@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (-) JobUnselected: {'identifier': 'cpp_package'}
+[0.000463] (action_package) JobQueued: {'identifier': 'action_package', 'dependencies': OrderedDict()}
+[0.000479] (action_package) JobStarted: {'identifier': 'action_package'}
+[0.006453] (action_package) JobProgress: {'identifier': 'action_package', 'progress': 'cmake'}
+[0.007239] (action_package) JobProgress: {'identifier': 'action_package', 'progress': 'build'}
+[0.007313] (action_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sami/session9/build/action_package', '--', '-j8', '-l8'], 'cwd': '/home/sami/session9/build/action_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sami'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2924,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2924'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3fc5999d_8aca_408e_8979_ed3a4ee1fa67'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S7EFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sami/session9/build/action_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027379] (action_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099982] (-) TimerEvent: {}
+[0.116588] (action_package) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.141010] (action_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.143168] (action_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148719] (action_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.158978] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.172577] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200174] (-) TimerEvent: {}
+[0.223978] (action_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.283645] (action_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.285150] (action_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300285] (-) TimerEvent: {}
+[0.374466] (action_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400447] (-) TimerEvent: {}
+[0.489765] (action_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500537] (-) TimerEvent: {}
+[0.600803] (-) TimerEvent: {}
+[0.659592] (action_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700973] (-) TimerEvent: {}
+[0.801220] (-) TimerEvent: {}
+[0.872250] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901333] (-) TimerEvent: {}
+[0.948508] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.962659] (action_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.977944] (action_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.978106] (action_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.978167] (action_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.988959] (action_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.999321] (action_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.000173] (action_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.001322] (action_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001419] (-) TimerEvent: {}
+[1.021222] (action_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.023240] (action_package) StdoutLine: {'line': b'-- Build files have been written to: /home/sami/session9/build/action_package\n'}
+[1.041899] (action_package) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.048824] (action_package) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.055458] (action_package) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_action_package\n'}
+[1.101539] (-) TimerEvent: {}
+[1.201836] (-) TimerEvent: {}
+[1.224825] (action_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.225215] (action_package) StdoutLine: {'line': b'writing action_package.egg-info/PKG-INFO\n'}
+[1.225367] (action_package) StdoutLine: {'line': b'writing dependency_links to action_package.egg-info/dependency_links.txt\n'}
+[1.225470] (action_package) StdoutLine: {'line': b'writing top-level names to action_package.egg-info/top_level.txt\n'}
+[1.227262] (action_package) StdoutLine: {'line': b"reading manifest file 'action_package.egg-info/SOURCES.txt'\n"}
+[1.227795] (action_package) StdoutLine: {'line': b"writing manifest file 'action_package.egg-info/SOURCES.txt'\n"}
+[1.247560] (action_package) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_action_package_egg\n'}
+[1.301930] (-) TimerEvent: {}
+[1.402241] (-) TimerEvent: {}
+[1.421131] (action_package) StdoutLine: {'line': b'[  5%] Built target action_package__cpp\n'}
+[1.427849] (action_package) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.428125] (action_package) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.428225] (action_package) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.432668] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_generator_c\x1b[0m\n'}
+[1.442040] (action_package) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_generator_c.dir/rosidl_generator_c/action_package/action/detail/lap_time__functions.c.o\x1b[0m\n'}
+[1.445039] (action_package) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_generator_c.dir/rosidl_generator_c/action_package/srv/detail/find_closest_wall__functions.c.o\x1b[0m\n'}
+[1.502344] (-) TimerEvent: {}
+[1.558545] (action_package) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaction_package__rosidl_generator_c.so\x1b[0m\n'}
+[1.587641] (action_package) StdoutLine: {'line': b'[ 20%] Built target action_package__rosidl_generator_c\n'}
+[1.597813] (action_package) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.598806] (action_package) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.599005] (action_package) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.602427] (-) TimerEvent: {}
+[1.702804] (-) TimerEvent: {}
+[1.714571] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.726945] (action_package) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_package/action/lap_time__type_support.cpp.o\x1b[0m\n'}
+[1.727371] (action_package) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_package/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[1.802909] (-) TimerEvent: {}
+[1.819845] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.833714] (action_package) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_package/srv/detail/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[1.839805] (action_package) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_package/action/detail/lap_time__type_support.cpp.o\x1b[0m\n'}
+[1.903011] (-) TimerEvent: {}
+[2.003347] (-) TimerEvent: {}
+[2.043837] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.061942] (action_package) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_package/action/detail/dds_fastrtps/lap_time__type_support.cpp.o\x1b[0m\n'}
+[2.100330] (action_package) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_package/srv/detail/dds_fastrtps/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[2.102187] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_c\x1b[0m\n'}
+[2.105016] (-) TimerEvent: {}
+[2.115250] (action_package) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_package/action/lap_time__type_support.cpp.o\x1b[0m\n'}
+[2.176412] (action_package) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_package/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[2.205140] (-) TimerEvent: {}
+[2.214755] (action_package) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.296551] (action_package) StdoutLine: {'line': b'[ 51%] Built target action_package__rosidl_typesupport_c\n'}
+[2.305321] (-) TimerEvent: {}
+[2.317834] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.322314] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.331173] (action_package) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_package/srv/detail/find_closest_wall__type_support.c.o\x1b[0m\n'}
+[2.335136] (action_package) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_package/action/detail/lap_time__type_support.c.o\x1b[0m\n'}
+[2.340497] (action_package) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_package/action/detail/lap_time__type_support_c.cpp.o\x1b[0m\n'}
+[2.348979] (action_package) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_package/srv/detail/find_closest_wall__type_support_c.cpp.o\x1b[0m\n'}
+[2.351536] (action_package) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.405442] (-) TimerEvent: {}
+[2.414118] (action_package) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libaction_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.422759] (action_package) StdoutLine: {'line': b'[ 66%] Built target action_package__rosidl_typesupport_cpp\n'}
+[2.451410] (action_package) StdoutLine: {'line': b'[ 66%] Built target action_package__rosidl_typesupport_introspection_c\n'}
+[2.505566] (-) TimerEvent: {}
+[2.577532] (action_package) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.605730] (-) TimerEvent: {}
+[2.642544] (action_package) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.668332] (action_package) StdoutLine: {'line': b'[ 71%] Built target action_package__rosidl_typesupport_introspection_cpp\n'}
+[2.701745] (action_package) StdoutLine: {'line': b'[ 71%] Built target action_package__rosidl_typesupport_fastrtps_cpp\n'}
+[2.703726] (action_package) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.705790] (-) TimerEvent: {}
+[2.751255] (action_package) StdoutLine: {'line': b'[ 74%] Built target action_package__rosidl_typesupport_fastrtps_c\n'}
+[2.763576] (action_package) StdoutLine: {'line': b'[ 74%] Built target action_package\n'}
+[2.779760] (action_package) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.805985] (-) TimerEvent: {}
+[2.906314] (-) TimerEvent: {}
+[3.006638] (-) TimerEvent: {}
+[3.106978] (-) TimerEvent: {}
+[3.207278] (-) TimerEvent: {}
+[3.307502] (-) TimerEvent: {}
+[3.391417] (action_package) StdoutLine: {'line': b'[ 76%] Built target action_package__py\n'}
+[3.397399] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_generator_py\x1b[0m\n'}
+[3.405306] (action_package) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_generator_py.dir/rosidl_generator_py/action_package/srv/_find_closest_wall_s.c.o\x1b[0m\n'}
+[3.405486] (action_package) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_generator_py.dir/rosidl_generator_py/action_package/action/_lap_time_s.c.o\x1b[0m\n'}
+[3.407603] (-) TimerEvent: {}
+[3.493416] (action_package) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/libaction_package__rosidl_generator_py.so\x1b[0m\n'}
+[3.507733] (-) TimerEvent: {}
+[3.518926] (action_package) StdoutLine: {'line': b'[ 84%] Built target action_package__rosidl_generator_py\n'}
+[3.526038] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.526222] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.526299] (action_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_package__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.535458] (action_package) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.535708] (action_package) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.535783] (action_package) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.607931] (-) TimerEvent: {}
+[3.623844] (action_package) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.641350] (action_package) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.653502] (action_package) StdoutLine: {'line': b'[ 97%] Built target action_package__rosidl_typesupport_introspection_c__pyext\n'}
+[3.671883] (action_package) StdoutLine: {'line': b'[ 97%] Built target action_package__rosidl_typesupport_c__pyext\n'}
+[3.675410] (action_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.700839] (action_package) StdoutLine: {'line': b'[100%] Built target action_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.708037] (-) TimerEvent: {}
+[3.708261] (action_package) CommandEnded: {'returncode': 0}
+[3.752530] (action_package) JobProgress: {'identifier': 'action_package', 'progress': 'install'}
+[3.758315] (action_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sami/session9/build/action_package'], 'cwd': '/home/sami/session9/build/action_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sami'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sami/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sami-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2924,unix/sami-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2924'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3fc5999d_8aca_408e_8979_ed3a4ee1fa67'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S7EFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sami/session9/build/action_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.764005] (action_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.764115] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/ament_index/resource_index/rosidl_interfaces/action_package\n'}
+[3.764236] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package\n'}
+[3.764319] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv\n'}
+[3.764381] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail\n'}
+[3.764447] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__type_support.h\n'}
+[3.764530] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__functions.c\n'}
+[3.764584] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__struct.h\n'}
+[3.764648] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__functions.h\n'}
+[3.764687] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/find_closest_wall.h\n'}
+[3.764731] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action\n'}
+[3.764784] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/lap_time.h\n'}
+[3.764821] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail\n'}
+[3.764875] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__struct.h\n'}
+[3.764914] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__functions.c\n'}
+[3.764963] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__functions.h\n'}
+[3.765023] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__type_support.h\n'}
+[3.765083] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg\n'}
+[3.765121] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.765158] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/environment/library_path.sh\n'}
+[3.765195] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/environment/library_path.dsv\n'}
+[3.765246] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_generator_c.so\n'}
+[3.765418] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_generator_c.so" to ""\n'}
+[3.765499] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package\n'}
+[3.765552] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv\n'}
+[3.765621] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail\n'}
+[3.765678] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[3.765718] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action\n'}
+[3.765765] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail\n'}
+[3.765805] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[3.765842] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg\n'}
+[3.765878] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.765914] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_c.so\n'}
+[3.765964] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.766043] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package\n'}
+[3.766094] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv\n'}
+[3.766146] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail\n'}
+[3.766198] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__builder.hpp\n'}
+[3.766257] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__struct.hpp\n'}
+[3.766315] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__traits.hpp\n'}
+[3.766358] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/find_closest_wall.hpp\n'}
+[3.766408] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action\n'}
+[3.766457] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/lap_time.hpp\n'}
+[3.766495] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail\n'}
+[3.766534] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__struct.hpp\n'}
+[3.766607] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__builder.hpp\n'}
+[3.766657] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__traits.hpp\n'}
+[3.766736] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package\n'}
+[3.766777] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv\n'}
+[3.766833] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail\n'}
+[3.766871] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/dds_fastrtps\n'}
+[3.766923] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.766961] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action\n'}
+[3.766997] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail\n'}
+[3.767033] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/dds_fastrtps\n'}
+[3.767069] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.767132] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg\n'}
+[3.767202] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.767252] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.767327] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.767368] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package\n'}
+[3.767421] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv\n'}
+[3.767480] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail\n'}
+[3.767518] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h\n'}
+[3.767573] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__type_support.c\n'}
+[3.767612] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action\n'}
+[3.767649] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail\n'}
+[3.767685] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__type_support.c\n'}
+[3.767725] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__rosidl_typesupport_introspection_c.h\n'}
+[3.767775] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg\n'}
+[3.767826] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.767864] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_c.so\n'}
+[3.767900] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.767938] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_c.so\n'}
+[3.767992] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_c.so" to ""\n'}
+[3.768065] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package\n'}
+[3.768115] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv\n'}
+[3.768180] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail\n'}
+[3.768233] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.768285] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/srv/detail/find_closest_wall__type_support.cpp\n'}
+[3.768322] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action\n'}
+[3.768359] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail\n'}
+[3.768395] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.768444] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/include/action_package/action_package/action/detail/lap_time__type_support.cpp\n'}
+[3.768482] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_cpp.so\n'}
+[3.768618] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.768691] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_cpp.so\n'}
+[3.768864] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_typesupport_cpp.so" to ""\n'}
+[3.768930] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/environment/pythonpath.sh\n'}
+[3.768969] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/environment/pythonpath.dsv\n'}
+[3.769032] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info\n'}
+[3.769088] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.769140] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.769192] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.769245] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.769309] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package\n'}
+[3.769358] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv\n'}
+[3.769410] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv/_find_closest_wall.py\n'}
+[3.769461] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv/__init__.py\n'}
+[3.769500] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv/_find_closest_wall_s.c\n'}
+[3.769558] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.769599] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action\n'}
+[3.769650] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_lap_time_s.c\n'}
+[3.769689] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_lap_time.py\n'}
+[3.769744] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action/__init__.py\n'}
+[3.769793] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.769847] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.769945] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_c.c\n'}
+[3.770033] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/__init__.py\n'}
+[3.770089] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/libaction_package__rosidl_generator_py.so\n'}
+[3.770156] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.770243] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.796484] (action_package) StdoutLine: {'line': b"Listing '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package'...\n"}
+[3.796660] (action_package) StdoutLine: {'line': b"Compiling '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/__init__.py'...\n"}
+[3.796708] (action_package) StdoutLine: {'line': b"Listing '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action'...\n"}
+[3.796748] (action_package) StdoutLine: {'line': b"Compiling '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action/__init__.py'...\n"}
+[3.796788] (action_package) StdoutLine: {'line': b"Compiling '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_lap_time.py'...\n"}
+[3.796826] (action_package) StdoutLine: {'line': b"Listing '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv'...\n"}
+[3.796864] (action_package) StdoutLine: {'line': b"Compiling '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv/__init__.py'...\n"}
+[3.796902] (action_package) StdoutLine: {'line': b"Compiling '/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/srv/_find_closest_wall.py'...\n"}
+[3.799738] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.799844] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.799912] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.800074] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.800162] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.800539] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.800625] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/lib/libaction_package__rosidl_generator_py.so\n'}
+[3.800800] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sami/session9/install/action_package/lib/libaction_package__rosidl_generator_py.so" to ""\n'}
+[3.800896] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/action/LapTime.idl\n'}
+[3.800963] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/srv/FindClosestWall.idl\n'}
+[3.801007] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/action/LapTime.action\n'}
+[3.801058] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/srv/FindClosestWall.srv\n'}
+[3.801101] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/srv/FindClosestWall_Request.msg\n'}
+[3.801154] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/srv/FindClosestWall_Response.msg\n'}
+[3.801215] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/ament_index/resource_index/package_run_dependencies/action_package\n'}
+[3.801283] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/ament_index/resource_index/parent_prefix_path/action_package\n'}
+[3.801325] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/environment/ament_prefix_path.sh\n'}
+[3.801381] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/environment/ament_prefix_path.dsv\n'}
+[3.801418] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/environment/path.sh\n'}
+[3.801490] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/environment/path.dsv\n'}
+[3.801539] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/local_setup.bash\n'}
+[3.801591] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/local_setup.sh\n'}
+[3.801631] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/local_setup.zsh\n'}
+[3.801682] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/local_setup.dsv\n'}
+[3.801741] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/package.dsv\n'}
+[3.801803] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/ament_index/resource_index/packages/action_package\n'}
+[3.801867] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cExport.cmake\n'}
+[3.801926] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.801993] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.802057] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.802126] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cppExport.cmake\n'}
+[3.802174] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.802241] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.802292] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.802371] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.802443] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cExport.cmake\n'}
+[3.802481] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.802519] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.802557] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.802593] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cppExport.cmake\n'}
+[3.802633] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.802670] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_pyExport.cmake\n'}
+[3.802706] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.802741] (action_package) StdoutLine: {'line': b'-- Installing: /home/sami/session9/install/action_package/share/action_package/cmake/rosidl_cmake-extras.cmake\n'}
+[3.802777] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.802813] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.802849] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.802884] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.802919] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.802955] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.802990] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_packageConfig.cmake\n'}
+[3.803026] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/cmake/action_packageConfig-version.cmake\n'}
+[3.803061] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/sami/session9/install/action_package/share/action_package/package.xml\n'}
+[3.804138] (action_package) CommandEnded: {'returncode': 0}
+[3.808245] (-) TimerEvent: {}
+[3.862048] (action_package) JobEnded: {'identifier': 'action_package', 'rc': 0}
+[3.862511] (-) EventReactorShutdown: {}
