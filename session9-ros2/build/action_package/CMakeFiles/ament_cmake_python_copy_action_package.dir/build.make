@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sami/session9/src/action_package
+CMAKE_SOURCE_DIR = /home/sami/session9/session9-ros2/src/action_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sami/session9/build/action_package
+CMAKE_BINARY_DIR = /home/sami/session9/session9-ros2/build/action_package
 
 # Utility rule file for ament_cmake_python_copy_action_package.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_action_package.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_copy_action_package.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_action_package:
-	/usr/bin/cmake -E copy_directory /home/sami/session9/build/action_package/rosidl_generator_py/action_package /home/sami/session9/build/action_package/ament_cmake_python/action_package/action_package
+	/usr/bin/cmake -E copy_directory /home/sami/session9/session9-ros2/build/action_package/rosidl_generator_py/action_package /home/sami/session9/session9-ros2/build/action_package/ament_cmake_python/action_package/action_package
 
 ament_cmake_python_copy_action_package: CMakeFiles/ament_cmake_python_copy_action_package
 ament_cmake_python_copy_action_package: CMakeFiles/ament_cmake_python_copy_action_package.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_action_package.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_action_package.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_action_package.dir/depend:
-	cd /home/sami/session9/build/action_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/session9/src/action_package /home/sami/session9/src/action_package /home/sami/session9/build/action_package /home/sami/session9/build/action_package /home/sami/session9/build/action_package/CMakeFiles/ament_cmake_python_copy_action_package.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sami/session9/session9-ros2/build/action_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/session9/session9-ros2/src/action_package /home/sami/session9/session9-ros2/src/action_package /home/sami/session9/session9-ros2/build/action_package /home/sami/session9/session9-ros2/build/action_package /home/sami/session9/session9-ros2/build/action_package/CMakeFiles/ament_cmake_python_copy_action_package.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_action_package.dir/depend
 

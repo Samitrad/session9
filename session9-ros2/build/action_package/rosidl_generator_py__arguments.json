@@ -1,10 +1,10 @@
 {
   "package_name": "action_package",
-  "output_dir": "/home/sami/session9/build/action_package/rosidl_generator_py/action_package",
+  "output_dir": "/home/sami/session9/session9-ros2/build/action_package/rosidl_generator_py/action_package",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/sami/session9/build/action_package/rosidl_adapter/action_package:action/LapTime.idl",
-    "/home/sami/session9/build/action_package/rosidl_adapter/action_package:srv/FindClosestWall.idl"
+    "/home/sami/session9/session9-ros2/build/action_package/rosidl_adapter/action_package:action/LapTime.idl",
+    "/home/sami/session9/session9-ros2/build/action_package/rosidl_adapter/action_package:srv/FindClosestWall.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -29,8 +29,8 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/sami/session9/build/action_package/rosidl_adapter/action_package/action/LapTime.idl",
-    "/home/sami/session9/build/action_package/rosidl_adapter/action_package/srv/FindClosestWall.idl",
+    "/home/sami/session9/session9-ros2/build/action_package/rosidl_adapter/action_package/action/LapTime.idl",
+    "/home/sami/session9/session9-ros2/build/action_package/rosidl_adapter/action_package/srv/FindClosestWall.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

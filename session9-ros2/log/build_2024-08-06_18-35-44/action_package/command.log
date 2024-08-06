@@ -1,4 +1,0 @@
-Invoking command in '/home/sami/session9/build/action_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sami/session9/build/action_package -- -j8 -l8
-Invoked command in '/home/sami/session9/build/action_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sami/session9/build/action_package -- -j8 -l8
-Invoking command in '/home/sami/session9/build/action_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sami/session9/build/action_package
-Invoked command in '/home/sami/session9/build/action_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sami/session9/build/action_package

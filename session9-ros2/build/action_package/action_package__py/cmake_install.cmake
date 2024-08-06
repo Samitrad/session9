@@ -1,8 +1,8 @@
-# Install script for directory: /home/sami/session9/build/action_package/action_package__py
+# Install script for directory: /home/sami/session9/session9-ros2/build/action_package/action_package__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sami/session9/install/action_package")
+  set(CMAKE_INSTALL_PREFIX "/home/sami/session9/session9-ros2/install/action_package")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sami/session9/src/cpp_package
+CMAKE_SOURCE_DIR = /home/sami/session9/session9-ros2/src/cpp_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sami/session9/build/cpp_package
+CMAKE_BINARY_DIR = /home/sami/session9/session9-ros2/build/cpp_package
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/sami/session9/build/cpp_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/session9/src/cpp_package /home/sami/session9/src/cpp_package /home/sami/session9/build/cpp_package /home/sami/session9/build/cpp_package /home/sami/session9/build/cpp_package/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sami/session9/session9-ros2/build/cpp_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/session9/session9-ros2/src/cpp_package /home/sami/session9/session9-ros2/src/cpp_package /home/sami/session9/session9-ros2/build/cpp_package /home/sami/session9/session9-ros2/build/cpp_package /home/sami/session9/session9-ros2/build/cpp_package/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

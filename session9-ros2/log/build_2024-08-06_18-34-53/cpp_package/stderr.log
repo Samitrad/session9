@@ -1,9 +1,0 @@
-In file included from [01m[K/home/sami/session9/src/cpp_package/src/wall_finder_service.cpp:1[m[K:
-[01m[K/home/sami/session9/src/cpp_package/include/cpp_package/wall_finder_service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kaction_package/srv/find_closest_wall.hpp: No such file or directory
-    6 | #include [01;31m[K"action_package/srv/find_closest_wall.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/wall_finder_service.dir/build.make:76: CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/wall_finder_service.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

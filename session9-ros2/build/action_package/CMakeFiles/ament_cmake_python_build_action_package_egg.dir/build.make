@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sami/session9/src/action_package
+CMAKE_SOURCE_DIR = /home/sami/session9/session9-ros2/src/action_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sami/session9/build/action_package
+CMAKE_BINARY_DIR = /home/sami/session9/session9-ros2/build/action_package
 
 # Utility rule file for ament_cmake_python_build_action_package_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_action_package_egg.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_build_action_package_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_action_package_egg:
-	cd /home/sami/session9/build/action_package/ament_cmake_python/action_package && /usr/bin/python3 setup.py egg_info
+	cd /home/sami/session9/session9-ros2/build/action_package/ament_cmake_python/action_package && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_action_package_egg: CMakeFiles/ament_cmake_python_build_action_package_egg
 ament_cmake_python_build_action_package_egg: CMakeFiles/ament_cmake_python_build_action_package_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_action_package_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_action_package_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_action_package_egg.dir/depend:
-	cd /home/sami/session9/build/action_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/session9/src/action_package /home/sami/session9/src/action_package /home/sami/session9/build/action_package /home/sami/session9/build/action_package /home/sami/session9/build/action_package/CMakeFiles/ament_cmake_python_build_action_package_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sami/session9/session9-ros2/build/action_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sami/session9/session9-ros2/src/action_package /home/sami/session9/session9-ros2/src/action_package /home/sami/session9/session9-ros2/build/action_package /home/sami/session9/session9-ros2/build/action_package /home/sami/session9/session9-ros2/build/action_package/CMakeFiles/ament_cmake_python_build_action_package_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_action_package_egg.dir/depend
 
