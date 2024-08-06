@@ -10,7 +10,7 @@ This ROS 2 package simulates a TurtleBot3 robot system where the robot can navig
 ## Features
 
 - **Robot Driver Node**: Drives the robot to follow a wall, adjusting its distance based on sensor data.
-- **Wall Finder Service **: Controls the robot to find and approach the closest wall.
+- **Wall Finder Service**: Controls the robot to find and approach the closest wall.
 - **Lap Time Action Server**: Measures the time needed for the robot to complete one lap around the arena.
 - **Lap Time Action Client**: Sends a goal to the Lap Time Action Server and handles feedback and results.
 ## Installation
